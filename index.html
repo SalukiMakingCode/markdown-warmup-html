@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <title>
     markdown warmup html
@@ -11,30 +11,32 @@
 <body>
 <h1>David Van Goidtsnoven</h1>
 <hr />
-<i> Live your life as a dream, and make this dream a reality </i>
-<br />
-<img src="./photo.jpg" alt="photo" width="400px" height="500px" />
+<p class="Intro"> Live your life as a dream, and make this dream a reality </p>
+
+<div class="PhotoCenter">
+  <img src="./photo.jpg" alt="photo" width="400px" height="500px" />
+</div>
 
 <h2> I'm a junior developer and I'm hoping to become a senior in a few year </h2>
 <hr />
 
-<table border="1px">
+<table>
   <tr>
-    <td>Birthday</td>
-    <td>Gender</td>
-    <td>Favorite color</td>
-    <td>Favorite food</td>
-    <td>Pinneaple on pizza</td>
+    <th>Birthday</td>
+    <th>Gender</th>
+    <th>Favorite color</th>
+    <th>Favorite food</th>
+    <th>Pinneaple on pizza</th>
   </tr>
   <tr>
     <td>18/09/1980</td>
     <td>Male</td>
     <td>Blue</td>
-    <td>italian food</td>
+    <td>Italian food</td>
     <td>
       <input type="radio" name="pinneapple" value="no">no</input>
       <input type="radio" name="pinneapple" value="yes">yes</input>
-      <input type="radio" name="pinneapple" value="sometimes" label="sometimes">sometimes</input>
+      <input type="radio" name="pinneapple" value="sometimes" checked>sometimes</input>
     </td>
   </tr>
 </table>
@@ -43,7 +45,7 @@
 <h2> My hobbies </h2>
 <hr />
 
-<ul>
+<ul class="hobby">
   <li>Computer</li>
   <li>Movies
     <ul>
@@ -58,7 +60,7 @@
 
 <h2> You can always count on me when </h2>
 <hr />
-<ul>
+<ul class="countonme">
   <li>You need help with HTML and CSS</li>
   <li>You want an alternative way of doing something</li>
   <li>You want to play online</li>
@@ -71,7 +73,8 @@
   Yes, that happend to me</p>
 <h3> Shit happend </h3>
 
-
-<< <a href="https://freyaln.github.io/challenge-markdown">previous</a> || David Van Goidtsnoven || <a href="https://freyaln.github.io/challenge-markdown">next</a> >>
+<footer>
+  << <a href="https://freyaln.github.io/challenge-markdown">previous</a> || David Van Goidtsnoven || <a href="https://freyaln.github.io/challenge-markdown">next</a> >>
+</footer>
 </body>
 </html>
